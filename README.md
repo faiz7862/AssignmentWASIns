@@ -5,6 +5,7 @@ A responsive, feature-rich travel insurance website prototype built with HTML5, 
 ## Project Overview
 
 This is a modern travel insurance website prototype showcasing a professional insurance platform with an intuitive navigation system, responsive design, and interactive components.
+project live demo - https://faiz7862.github.io/AssignmentWASIns/index.html
 
 ## File Structure
 
