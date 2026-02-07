@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Emergency Assistance - logoipsum Travel Insurance</title>
+  <meta name="description" content="24/7 Emergency Assistance services for travel insurance coverage and support." />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/img1.png" alt="logoipsum logo" class="brand__logo" />
+        <span class="brand__text">logoipsum</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <button id="nav-toggle" class="nav__toggle" aria-expanded="false" aria-controls="nav-drawer">
+          Menu
+        </button>
+        <ul id="nav-desktop" class="nav__list">
+          <li><a href="index.html">Travel Insurance</a></li>
+          <li><a href="services.html">Emergency Assistance</a></li>
+          <li><a href="contact.html">Customer Service</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="nav-drawer" class="nav-drawer" aria-hidden="true" role="navigation">
+    <div class="drawer-header">
+      <a href="index.html" class="brand" style="margin: 0;">
+        <img src="images/img1.png" alt="logoipsum" class="brand__logo" />
+        <span class="brand__text">logoipsum</span>
+      </a>
+      <button id="drawer-close" class="drawer-close" aria-label="Close menu">
+        <span>×</span>
+      </button>
+    </div>
+    <div class="drawer-menu">
+      <div class="menu-item">
+        <button class="menu-toggle" data-menu="travel" aria-expanded="false">
+          <span class="menu-label">Travel Insurance</span>
+          <span class="menu-arrow">^</span>
+        </button>
+        <ul class="submenu" id="travel-menu">
+          <li><a href="#">Plans</a></li>
+          <li><a href="#">Upgrades</a></li>
+          <li><a href="#">Traveller Type</a></li>
+          <li><a href="#">Trip Type</a></li>
+          <li><a href="#">Benefits</a></li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <a href="services.html" class="menu-link">Emergency Assistance</a>
+      </div>
+      <div class="menu-item">
+        <button class="menu-toggle" data-menu="service" aria-expanded="false">
+          <span class="menu-label">Customer Service</span>
+          <span class="menu-arrow">^</span>
+        </button>
+        <ul class="submenu" id="service-menu">
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="drawer-overlay" class="drawer-overlay" hidden></div>
+
+  <main>
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+      <div class="container">
+        <h1>Emergency Assistance</h1>
+        <p class="lead">24/7 Support and Worldwide Coverage</p>
+      </div>
+    </section>
+
+    <!-- Services Content -->
+    <section class="container" style="padding:3rem 0;">
+      <div class="services-intro">
+        <p>Our team is always ready to assist you with any travel emergency. No matter where you are in the world, we provide immediate support and solutions.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-item">
+          <div class="service-icon">🏥</div>
+          <h3>Medical Emergency</h3>
+          <p>Immediate medical assistance and evacuation coverage for emergency health situations. Our network includes hospitals in over 190 countries.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">✈️</div>
+          <h3>Travel Crisis Support</h3>
+          <p>Lost luggage, missed flights, and travel disruption assistance at your fingertips. We help rebook flights and arrange accommodation.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">📞</div>
+          <h3>24/7 Hotline Support</h3>
+          <p>Reach us anytime, anywhere with dedicated multilingual customer support team. Average response time under 5 minutes.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">💳</div>
+          <h3>Financial Protection</h3>
+          <p>Cashless treatment at partner hospitals. Direct billing with no upfront payment required for covered medical expenses.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">🛡️</div>
+          <h3>Personal Safety</h3>
+          <p>Emergency evacuation to home country, legal assistance, and crisis management support when you need it most.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-item">
+          <div class="service-icon">🌍</div>
+          <h3>Global Network</h3>
+          <p>Access to our international partner network ensures you receive consistent quality care and support worldwide.</p>
+          <a href="#" class="service-link">Learn More →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="services-cta">
+      <div class="container">
+        <h2>Need Assistance Right Now?</h2>
+        <p>Contact our 24/7 support team immediately</p>
+        <a href="contact.html" class="btn btn-primary">Contact Support</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> logoipsum Travel Insurance. All rights reserved.</p>
+      <nav aria-label="Footer links">
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

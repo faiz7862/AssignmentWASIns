@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Travel Insurance - Find the Right Plan for You</title>
+  <meta name="description" content="Breaking the limits of traditional travel insurance. Find the right plan for your next trip with logoipsum." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="css/style.css" as="style" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"logoipsum - Travel Insurance","url":"https://example.com"}
+  </script>
+</head>
+<body>
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="logoipsum home">
+        <img src="images/img1.png" alt="logoipsum logo" class="brand__logo" />
+        <span class="brand__text">logoipsum</span>
+      </a>
+
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Main navigation">
+        <button id="nav-toggle" class="nav__toggle" aria-expanded="false" aria-controls="nav-drawer">
+          Menu
+        </button>
+        <ul id="nav-desktop" class="nav__list">
+          <li><a href="index.html">Travel Insurance</a></li>
+          <li><a href="services.html">Emergency Assistance</a></li>
+          <li><a href="contact.html">Customer Service</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="nav-drawer" class="nav-drawer" aria-hidden="true" role="navigation">
+    <div class="drawer-header">
+      <a href="index.html" class="brand" style="margin: 0;">
+        <img src="images/img1.png" alt="logoipsum" class="brand__logo" />
+        <span class="brand__text">logoipsum</span>
+      </a>
+      <button id="drawer-close" class="drawer-close" aria-label="Close menu">
+        <span>×</span>
+      </button>
+    </div>
+    <div class="drawer-menu">
+      <div class="menu-item">
+        <button class="menu-toggle" data-menu="travel" aria-expanded="false">
+          <span class="menu-label">Travel Insurance</span>
+          <span class="menu-arrow">^</span>
+        </button>
+        <ul class="submenu" id="travel-menu">
+          <li><a href="#">Plans</a></li>
+          <li><a href="#">Upgrades</a></li>
+          <li><a href="#">Traveller Type</a></li>
+          <li><a href="#">Trip Type</a></li>
+          <li><a href="#">Benefits</a></li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <a href="services.html" class="menu-link">Emergency Assistance</a>
+      </div>
+      <div class="menu-item">
+        <button class="menu-toggle" data-menu="service" aria-expanded="false">
+          <span class="menu-label">Customer Service</span>
+          <span class="menu-arrow">^</span>
+        </button>
+        <ul class="submenu" id="service-menu">
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="drawer-overlay" class="drawer-overlay" hidden></div>
+
+  <main id="main" role="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-subtitle">BREAKING THE LIMITS OF TRADITIONAL TRAVEL INSURANCE</p>
+          <h1 id="hero-heading">Find the Right Plan for You</h1>
+          
+          <div class="quote-form">
+            <div class="form-tabs">
+              <button class="tab-btn active" data-tab="single">Single Trip</button>
+              <button class="tab-btn" data-tab="multi">Multi Trip</button>
+            </div>
+
+            <form id="quote-form" class="form-content">
+              <div class="form-group">
+                <label for="destination">Where are you travelling?</label>
+                <div class="destination-input">
+                  <input type="text" id="destination" name="destination" placeholder="Type or choose your destination" />
+                  <div class="selected-destinations">
+                    <span class="tag">Austria <button type="button" aria-label="Remove Austria">×</button></span>
+                    <span class="tag">Bali (selected) <button type="button" aria-label="Remove Bali">×</button></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="departure">When do you leave?</label>
+                <div class="date-select">
+                  <input type="date" id="departure" name="departure" />
+                  <span class="date-label">Anish</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="return">When do you return?</label>
+                <input type="date" id="return" name="return" placeholder="DD/MM/YYYY" />
+              </div>
+
+              <div class="form-group">
+                <label for="age">Current age of all Travellers?</label>
+                <div class="age-input">
+                  <button type="button" class="age-btn minus">−</button>
+                  <input type="number" id="age" name="age" value="0" readonly />
+                  <button type="button" class="age-btn plus">+</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="promo">Promo Code</label>
+                <input type="text" id="promo" name="promo" placeholder="Enter promo code" />
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">GET A QUOTE</button>
+            </form>
+          </div>
+        </div>
+
+        <figure class="hero-media" aria-hidden="false">
+          <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop" alt="Family enjoying beach vacation" loading="lazy" width="800" height="600" />
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> logoipsum Travel Insurance. All rights reserved.</p>
+      <nav aria-label="Footer links">
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
+    
